@@ -8,13 +8,17 @@
 import SwiftUI
 
 struct DetailBillView: View {
+    var billDetail: BillModel
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            
+        }
     }
 }
 
 struct DetailBillView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailBillView()
+        DetailBillView(billDetail: BillModel.preview)
     }
 }

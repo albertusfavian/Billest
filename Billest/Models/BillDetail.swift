@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct BillDetail: Codable {
+    var personInCharge: User
+    var nominal: Int?
+    var done: Bool = false
+}

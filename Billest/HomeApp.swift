@@ -8,8 +8,24 @@
 import SwiftUI
 
 struct HomeApp: View {
+    let items = ["Item 1", "Item 2", "Item 3"]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack{
+            List{
+                ForEach(items, id: \.self) { item in
+                    BillCardView(name: "Tagihan Listrik", amount: 150.0, date: "28 September 2023", billStatus: .partiallyPaid, billingDetail: BillModel.preview)
+                        .background(
+                            NavigationLink("", destination: DetailBillView(item: item))
+                                .opacity(0)
+                        )
+                }
+            }
+            .listStyle(.plain)
+            .navigationTitle("Ongoing in Charge")
+            
+                
+        }
     }
 }
 
