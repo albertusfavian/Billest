@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyCN72FefQhroTIfEjw01LUd5Ia9TBJ5R2I</string>
+	<key>GCM_SENDER_ID</key>
+	<string>864298606966</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>albertPersonalProject.Billest</string>
+	<key>PROJECT_ID</key>
+	<string>billest-a2914</string>
+	<key>STORAGE_BUCKET</key>
+	<string>billest-a2914.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:864298606966:ios:347f8324b1f2666694da57</string>
+</dict>
+</plist>
