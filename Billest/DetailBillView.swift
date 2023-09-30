@@ -12,7 +12,9 @@ struct DetailBillView: View {
 
     var body: some View {
         VStack{
-            
+            List{
+                
+            }
         }
     }
 }

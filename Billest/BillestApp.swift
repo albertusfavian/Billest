@@ -13,7 +13,7 @@ struct BillestApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeApp()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

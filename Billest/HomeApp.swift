@@ -16,7 +16,7 @@ struct HomeApp: View {
                 ForEach(items, id: \.self) { item in
                     BillCardView(name: "Tagihan Listrik", amount: 150.0, date: "28 September 2023", billStatus: .partiallyPaid, billingDetail: BillModel.preview)
                         .background(
-                            NavigationLink("", destination: DetailBillView(item: item))
+                            NavigationLink("", destination: DetailBillView(billDetail: BillModel.preview))
                                 .opacity(0)
                         )
                 }

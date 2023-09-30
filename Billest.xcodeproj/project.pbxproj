@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F0EBC9C2AC6C2B40024F7EC /* PersonListInCharge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0EBC9B2AC6C2B40024F7EC /* PersonListInCharge.swift */; };
+		2F0EBC9E2AC6D59B0024F7EC /* InitialName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0EBC9D2AC6D59B0024F7EC /* InitialName.swift */; };
+		2FF4CF102AC66F5900482A99 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF4CF0F2AC66F5900482A99 /* Font.swift */; };
+		2FF4CF252AC675E400482A99 /* Barlow-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FF4CF132AC675E100482A99 /* Barlow-SemiBold.ttf */; };
+		2FF4CF262AC675E400482A99 /* Barlow-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FF4CF142AC675E100482A99 /* Barlow-ExtraLight.ttf */; };
+		2FF4CF272AC675E400482A99 /* Barlow-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FF4CF152AC675E200482A99 /* Barlow-ExtraLightItalic.ttf */; };
+		2FF4CF282AC675E400482A99 /* Barlow-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FF4CF162AC675E200482A99 /* Barlow-ExtraBoldItalic.ttf */; };
+		2FF4CF292AC675E400482A99 /* Barlow-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FF4CF172AC675E200482A99 /* Barlow-MediumItalic.ttf */; };
+		2FF4CF2A2AC675E400482A99 /* Barlow-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FF4CF182AC675E200482A99 /* Barlow-BlackItalic.ttf */; };
+		2FF4CF2B2AC675E400482A99 /* Barlow-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FF4CF192AC675E200482A99 /* Barlow-LightItalic.ttf */; };
+		2FF4CF2C2AC675E400482A99 /* Barlow-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FF4CF1A2AC675E200482A99 /* Barlow-Italic.ttf */; };
+		2FF4CF2D2AC675E400482A99 /* Barlow-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FF4CF1B2AC675E200482A99 /* Barlow-BoldItalic.ttf */; };
+		2FF4CF2E2AC675E400482A99 /* Barlow-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FF4CF1C2AC675E300482A99 /* Barlow-Bold.ttf */; };
+		2FF4CF2F2AC675E400482A99 /* Barlow-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FF4CF1D2AC675E300482A99 /* Barlow-SemiBoldItalic.ttf */; };
+		2FF4CF302AC675E400482A99 /* Barlow-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FF4CF1E2AC675E300482A99 /* Barlow-Regular.ttf */; };
+		2FF4CF312AC675E400482A99 /* Barlow-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FF4CF1F2AC675E300482A99 /* Barlow-Medium.ttf */; };
+		2FF4CF322AC675E400482A99 /* Barlow-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FF4CF202AC675E300482A99 /* Barlow-Light.ttf */; };
+		2FF4CF332AC675E400482A99 /* Barlow-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FF4CF212AC675E300482A99 /* Barlow-ExtraBold.ttf */; };
+		2FF4CF342AC675E400482A99 /* Barlow-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FF4CF222AC675E300482A99 /* Barlow-Black.ttf */; };
+		2FF4CF352AC675E400482A99 /* Barlow-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FF4CF232AC675E400482A99 /* Barlow-ThinItalic.ttf */; };
+		2FF4CF362AC675E400482A99 /* Barlow-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FF4CF242AC675E400482A99 /* Barlow-Thin.ttf */; };
 		8E335FD92AC54E17002CFF3F /* BillestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E335FD82AC54E17002CFF3F /* BillestApp.swift */; };
 		8E335FDB2AC54E17002CFF3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E335FDA2AC54E17002CFF3F /* ContentView.swift */; };
 		8E335FDD2AC54E1B002CFF3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E335FDC2AC54E1B002CFF3F /* Assets.xcassets */; };
@@ -27,6 +48,28 @@
 /* Begin PBXFileReference section */
 		1C44E1179E969668F95D310F /* Pods_Billest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Billest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20E6FA99EA43841BD87F19B8 /* Pods-Billest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Billest.debug.xcconfig"; path = "Target Support Files/Pods-Billest/Pods-Billest.debug.xcconfig"; sourceTree = "<group>"; };
+		2F0EBC9B2AC6C2B40024F7EC /* PersonListInCharge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListInCharge.swift; sourceTree = "<group>"; };
+		2F0EBC9D2AC6D59B0024F7EC /* InitialName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialName.swift; sourceTree = "<group>"; };
+		2FF4CF0F2AC66F5900482A99 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		2FF4CF132AC675E100482A99 /* Barlow-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-SemiBold.ttf"; sourceTree = "<group>"; };
+		2FF4CF142AC675E100482A99 /* Barlow-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-ExtraLight.ttf"; sourceTree = "<group>"; };
+		2FF4CF152AC675E200482A99 /* Barlow-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		2FF4CF162AC675E200482A99 /* Barlow-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		2FF4CF172AC675E200482A99 /* Barlow-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-MediumItalic.ttf"; sourceTree = "<group>"; };
+		2FF4CF182AC675E200482A99 /* Barlow-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-BlackItalic.ttf"; sourceTree = "<group>"; };
+		2FF4CF192AC675E200482A99 /* Barlow-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-LightItalic.ttf"; sourceTree = "<group>"; };
+		2FF4CF1A2AC675E200482A99 /* Barlow-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Italic.ttf"; sourceTree = "<group>"; };
+		2FF4CF1B2AC675E200482A99 /* Barlow-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-BoldItalic.ttf"; sourceTree = "<group>"; };
+		2FF4CF1C2AC675E300482A99 /* Barlow-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Bold.ttf"; sourceTree = "<group>"; };
+		2FF4CF1D2AC675E300482A99 /* Barlow-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		2FF4CF1E2AC675E300482A99 /* Barlow-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Regular.ttf"; sourceTree = "<group>"; };
+		2FF4CF1F2AC675E300482A99 /* Barlow-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Medium.ttf"; sourceTree = "<group>"; };
+		2FF4CF202AC675E300482A99 /* Barlow-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Light.ttf"; sourceTree = "<group>"; };
+		2FF4CF212AC675E300482A99 /* Barlow-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-ExtraBold.ttf"; sourceTree = "<group>"; };
+		2FF4CF222AC675E300482A99 /* Barlow-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Black.ttf"; sourceTree = "<group>"; };
+		2FF4CF232AC675E400482A99 /* Barlow-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-ThinItalic.ttf"; sourceTree = "<group>"; };
+		2FF4CF242AC675E400482A99 /* Barlow-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Thin.ttf"; sourceTree = "<group>"; };
+		2FF4CF392AC6790700482A99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		593C32A8C19EBA293ADDD964 /* Pods-Billest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Billest.release.xcconfig"; path = "Target Support Files/Pods-Billest/Pods-Billest.release.xcconfig"; sourceTree = "<group>"; };
 		8E335FD52AC54E17002CFF3F /* Billest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Billest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E335FD82AC54E17002CFF3F /* BillestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillestApp.swift; sourceTree = "<group>"; };
@@ -57,6 +100,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FF4CF0E2AC66F3E00482A99 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				8E335FFD2AC5E820002CFF3F /* Color.swift */,
+				2FF4CF0F2AC66F5900482A99 /* Font.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		2FF4CF112AC6758000482A99 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2FF4CF122AC675C900482A99 /* Font */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2FF4CF122AC675C900482A99 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				2FF4CF222AC675E300482A99 /* Barlow-Black.ttf */,
+				2FF4CF182AC675E200482A99 /* Barlow-BlackItalic.ttf */,
+				2FF4CF1C2AC675E300482A99 /* Barlow-Bold.ttf */,
+				2FF4CF1B2AC675E200482A99 /* Barlow-BoldItalic.ttf */,
+				2FF4CF212AC675E300482A99 /* Barlow-ExtraBold.ttf */,
+				2FF4CF162AC675E200482A99 /* Barlow-ExtraBoldItalic.ttf */,
+				2FF4CF142AC675E100482A99 /* Barlow-ExtraLight.ttf */,
+				2FF4CF152AC675E200482A99 /* Barlow-ExtraLightItalic.ttf */,
+				2FF4CF1A2AC675E200482A99 /* Barlow-Italic.ttf */,
+				2FF4CF202AC675E300482A99 /* Barlow-Light.ttf */,
+				2FF4CF192AC675E200482A99 /* Barlow-LightItalic.ttf */,
+				2FF4CF1F2AC675E300482A99 /* Barlow-Medium.ttf */,
+				2FF4CF172AC675E200482A99 /* Barlow-MediumItalic.ttf */,
+				2FF4CF1E2AC675E300482A99 /* Barlow-Regular.ttf */,
+				2FF4CF132AC675E100482A99 /* Barlow-SemiBold.ttf */,
+				2FF4CF1D2AC675E300482A99 /* Barlow-SemiBoldItalic.ttf */,
+				2FF4CF242AC675E400482A99 /* Barlow-Thin.ttf */,
+				2FF4CF232AC675E400482A99 /* Barlow-ThinItalic.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		8E335FCC2AC54E17002CFF3F = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +163,9 @@
 		8E335FD72AC54E17002CFF3F /* Billest */ = {
 			isa = PBXGroup;
 			children = (
+				2FF4CF392AC6790700482A99 /* Info.plist */,
+				2FF4CF112AC6758000482A99 /* Assets */,
+				2FF4CF0E2AC66F3E00482A99 /* Shared */,
 				8E335FF62AC5C459002CFF3F /* Models */,
 				8E335FF32AC5C430002CFF3F /* Component */,
 				8E335FD82AC54E17002CFF3F /* BillestApp.swift */,
@@ -89,7 +177,6 @@
 				8E335FED2AC55E5D002CFF3F /* MainTabConfig.swift */,
 				8E335FEF2AC55EA0002CFF3F /* HomeApp.swift */,
 				8E335FF12AC5622B002CFF3F /* DetailBillView.swift */,
-				8E335FFD2AC5E820002CFF3F /* Color.swift */,
 			);
 			path = Billest;
 			sourceTree = "<group>";
@@ -106,6 +193,8 @@
 			isa = PBXGroup;
 			children = (
 				8E335FF42AC5C451002CFF3F /* BillCardView.swift */,
+				2F0EBC9B2AC6C2B40024F7EC /* PersonListInCharge.swift */,
+				2F0EBC9D2AC6D59B0024F7EC /* InitialName.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -126,7 +215,6 @@
 				20E6FA99EA43841BD87F19B8 /* Pods-Billest.debug.xcconfig */,
 				593C32A8C19EBA293ADDD964 /* Pods-Billest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -197,8 +285,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FF4CF2F2AC675E400482A99 /* Barlow-SemiBoldItalic.ttf in Resources */,
+				2FF4CF312AC675E400482A99 /* Barlow-Medium.ttf in Resources */,
+				2FF4CF362AC675E400482A99 /* Barlow-Thin.ttf in Resources */,
 				8E335FE02AC54E1B002CFF3F /* Preview Assets.xcassets in Resources */,
+				2FF4CF2A2AC675E400482A99 /* Barlow-BlackItalic.ttf in Resources */,
+				2FF4CF2D2AC675E400482A99 /* Barlow-BoldItalic.ttf in Resources */,
+				2FF4CF262AC675E400482A99 /* Barlow-ExtraLight.ttf in Resources */,
+				2FF4CF252AC675E400482A99 /* Barlow-SemiBold.ttf in Resources */,
+				2FF4CF302AC675E400482A99 /* Barlow-Regular.ttf in Resources */,
+				2FF4CF322AC675E400482A99 /* Barlow-Light.ttf in Resources */,
+				2FF4CF282AC675E400482A99 /* Barlow-ExtraBoldItalic.ttf in Resources */,
+				2FF4CF352AC675E400482A99 /* Barlow-ThinItalic.ttf in Resources */,
+				2FF4CF292AC675E400482A99 /* Barlow-MediumItalic.ttf in Resources */,
+				2FF4CF342AC675E400482A99 /* Barlow-Black.ttf in Resources */,
+				2FF4CF2B2AC675E400482A99 /* Barlow-LightItalic.ttf in Resources */,
+				2FF4CF2E2AC675E400482A99 /* Barlow-Bold.ttf in Resources */,
+				2FF4CF332AC675E400482A99 /* Barlow-ExtraBold.ttf in Resources */,
+				2FF4CF2C2AC675E400482A99 /* Barlow-Italic.ttf in Resources */,
 				8E335FDD2AC54E1B002CFF3F /* Assets.xcassets in Resources */,
+				2FF4CF272AC675E400482A99 /* Barlow-ExtraLightItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,9 +347,12 @@
 				8E335FD92AC54E17002CFF3F /* BillestApp.swift in Sources */,
 				8E335FFE2AC5E820002CFF3F /* Color.swift in Sources */,
 				8E335FEE2AC55E5D002CFF3F /* MainTabConfig.swift in Sources */,
+				2FF4CF102AC66F5900482A99 /* Font.swift in Sources */,
 				8E335FF52AC5C451002CFF3F /* BillCardView.swift in Sources */,
 				8E335FF22AC5622B002CFF3F /* DetailBillView.swift in Sources */,
 				8E335FF82AC5C580002CFF3F /* BillModel.swift in Sources */,
+				2F0EBC9E2AC6D59B0024F7EC /* InitialName.swift in Sources */,
+				2F0EBC9C2AC6C2B40024F7EC /* PersonListInCharge.swift in Sources */,
 				8E335FFA2AC5D344002CFF3F /* UserModel.swift in Sources */,
 				8E335FE52AC54E1B002CFF3F /* Billest.xcdatamodeld in Sources */,
 			);
@@ -378,11 +487,13 @@
 				DEVELOPMENT_TEAM = DFYL38U338;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Billest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -408,11 +519,13 @@
 				DEVELOPMENT_TEAM = DFYL38U338;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Billest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
