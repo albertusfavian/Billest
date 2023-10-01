@@ -9,6 +9,7 @@ import SwiftUI
 
 struct HomeApp: View {
     let items = ["Item 1", "Item 2", "Item 3"]
+    @State private var isAddNewBill = false
     
     var body: some View {
         NavigationStack{
@@ -23,8 +24,22 @@ struct HomeApp: View {
             }
             .listStyle(.plain)
             .navigationTitle("Ongoing in Charge")
+//            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button(action: {
+                        // Action
+                        isAddNewBill = true
+                    }) {
+                        Text("+")
+                            .font(.system(size: 32, weight: .none))
+                    }
+                }
+            }
             
-                
+            NavigationLink(destination: GeneralInfoBillView(), isActive: $isAddNewBill) {
+                EmptyView()
+            }
         }
     }
 }

@@ -7,10 +7,11 @@
 
 import SwiftUI
 
+
 @main
 struct BillestApp: App {
     let persistenceController = PersistenceController.shared
-
+    
     var body: some Scene {
         WindowGroup {
             HomeApp()
@@ -18,3 +19,4 @@ struct BillestApp: App {
         }
     }
 }
+
