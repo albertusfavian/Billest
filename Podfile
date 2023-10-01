@@ -6,5 +6,7 @@ target 'Billest' do
   use_frameworks!
 
   # Pods for Billest
+  pod 'FirebaseAuth'
+  pod 'FirebaseFirestoreSwift'
 
 end

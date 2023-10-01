@@ -27,6 +27,7 @@
 		8E335FFE2AC5E820002CFF3F /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E335FFD2AC5E820002CFF3F /* Color.swift */; };
 		8E3360032AC808AD002CFF3F /* AddBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3360022AC808AD002CFF3F /* AddBillView.swift */; };
 		8E3360052AC811A5002CFF3F /* GeneralInfoBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3360042AC811A5002CFF3F /* GeneralInfoBillView.swift */; };
+		8E3360002AC7EA05002CFF3F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E335FFF2AC7EA05002CFF3F /* GoogleService-Info.plist */; };
 		C898A0F80ED63DACF8475EB3 /* Pods_Billest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C44E1179E969668F95D310F /* Pods_Billest.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		8E335FFD2AC5E820002CFF3F /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		8E3360022AC808AD002CFF3F /* AddBillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBillView.swift; sourceTree = "<group>"; };
 		8E3360042AC811A5002CFF3F /* GeneralInfoBillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralInfoBillView.swift; sourceTree = "<group>"; };
+		8E335FFF2AC7EA05002CFF3F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				2FF4CF392AC6790700482A99 /* Info.plist */,
 				2FF4CF112AC6758000482A99 /* Assets */,
 				2FF4CF0E2AC66F3E00482A99 /* Shared */,
+				8E335FFF2AC7EA05002CFF3F /* GoogleService-Info.plist */,
 				8E335FF62AC5C459002CFF3F /* Models */,
 				8E335FF32AC5C430002CFF3F /* Component */,
 				8E335FD82AC54E17002CFF3F /* BillestApp.swift */,
@@ -200,6 +203,7 @@
 				8E335FD12AC54E17002CFF3F /* Sources */,
 				8E335FD22AC54E17002CFF3F /* Frameworks */,
 				8E335FD32AC54E17002CFF3F /* Resources */,
+				DB56F8120EE67877228DC7EE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,12 +255,30 @@
 				8E335FE02AC54E1B002CFF3F /* Preview Assets.xcassets in Resources */,
 				2FF4CF302AC675E400482A99 /* Barlow-Regular.ttf in Resources */,
 				8E335FDD2AC54E1B002CFF3F /* Assets.xcassets in Resources */,
+				8E3360002AC7EA05002CFF3F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		DB56F8120EE67877228DC7EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Billest/Pods-Billest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Billest/Pods-Billest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Billest/Pods-Billest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F4567B2EF6F1A63F6C462F64 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
