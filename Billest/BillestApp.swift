@@ -5,8 +5,6 @@
 //  Created by Mac-albert on 28/09/23.
 //
 
-import SwiftUI
-
 
 import SwiftUI
 import FirebaseCore
@@ -27,11 +25,12 @@ struct BillestApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
 
     let persistenceController = PersistenceController.shared
-
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeApp()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
+
